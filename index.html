@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <title>Química em Blocos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <button id="leftToggle" class="icon-btn" aria-label="Abrir navegação" aria-expanded="true">☰</button>
+      <div class="brand"><span class="brand-mark">⚗</span><span><strong>Química em Blocos</strong><small>Aprenda construindo</small></span></div>
+    </div>
+    <div class="top-stats">
+      <span class="xp-pill">⭐ <strong id="xp">0</strong> XP</span>
+      <span class="progress-mini" aria-label="Progresso da trilha"><span class="progress-mini-track"><i id="pctMiniBar"></i></span><span id="pctMini">0%</span></span>
+      <span id="streak" class="streak-badge">🔥 0</span>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside id="sidebar" class="sidebar drawer" aria-label="Navegação da aprendizagem">
+      <div class="drawer-head">
+        <div><small>TRILHA</small><h2>Aprendizagem</h2></div>
+        <button id="leftClose" class="drawer-close" aria-label="Fechar navegação">×</button>
+      </div>
+
+      <nav class="view-nav" aria-label="Navegação principal">
+        <button class="view-btn active" data-view="trail"><span>🧭</span><b>Trilha</b></button>
+        <button class="view-btn" data-view="lab"><span>⚗️</span><b>Laboratório</b></button>
+        <button class="view-btn" data-view="mixed"><span>🧩</span><b>Desafios mistos</b></button>
+        <button class="view-btn" data-view="review"><span>🔄</span><b>Revisão</b></button>
+        <button class="view-btn" data-view="achievements"><span>🏆</span><b>Conquistas</b></button>
+      </nav>
+
+      <div id="missions-wrap">
+        <div class="sidebar-subtitle"><span>Missões</span><span class="scroll-hint">role para navegar</span></div>
+        <div id="missions"></div>
+      </div>
+
+      <button id="reset" class="reset-btn">↻ <span>Reiniciar progresso</span></button>
+    </aside>
+
+    <section class="content" aria-label="Conteúdo principal">
+      <div id="app"></div>
+    </section>
+
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
