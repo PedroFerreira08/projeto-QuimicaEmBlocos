@@ -1,18 +1,47 @@
-Química em Blocos
+# ⚗️ Química em Blocos
 
-Projeto educacional em HTML, CSS e JavaScript para aprender Química por meio de missões interativas, progressão por seções e dificuldade crescente.
+**Química em Blocos** é uma plataforma educacional interativa criada para ensinar Química por meio de exercícios, construção de fórmulas e reações químicas em blocos.
 
-Recursos principais:
-- Trilha com 30 exercícios organizados por matéria e nível.
-- Aula rápida por seção, sem revelar a resposta dos exercícios.
-- Dicas em 3 níveis.
-- 3 tentativas por rodada, com opção de iniciar uma nova rodada.
-- Revisão inteligente baseada nos erros.
-- Desafios mistos de aplicação.
-- Laboratório livre para montar fórmulas e observar suas características.
-- Sistema de XP, sequência de estudo e conquistas.
-- Progresso por seção.
-- Botões para apagar o último bloco ou limpar construções.
-- Layout responsivo para computador, tablet e celular.
+## 🎯 Objetivo
 
-Abra index.html em um navegador. O progresso é salvo no localStorage.
+Tornar o aprendizado de Química mais visual e interativo, incentivando o aluno a **pensar e descobrir a resposta**, em vez de apenas memorizá-la.
+
+## 🧪 Recursos
+
+* 📚 Missões organizadas por matéria e dificuldade
+* 🧩 Construção de fórmulas e reações por blocos
+* 💡 Sistema de dicas graduais
+* ❤️ Sistema de tentativas
+* ⭐ XP e progresso
+* 🏆 Conquistas
+* 🔄 Revisão de conteúdos
+* ⚗️ Laboratório livre
+* 🧠 Desafios mistos
+* 📱 Interface responsiva
+
+## 💻 Tecnologias
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **LocalStorage**
+
+## 📁 Estrutura
+
+```text
+quimica-em-blocos/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 🚀 Como executar
+
+Baixe o projeto e abra o arquivo `index.html` em um navegador.
+
+Não é necessário instalar nenhuma dependência.
+
+## 👨‍💻 Desenvolvedor
+
+Projeto desenvolvido para fins educacionais, unindo **Química, programação e aprendizagem interativa**.
