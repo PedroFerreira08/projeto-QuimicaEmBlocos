@@ -10,7 +10,7 @@ Tornar o aprendizado de Química mais visual e interativo, incentivando o aluno 
 
 * 📚 Missões organizadas por matéria e dificuldade
 * 🧩 Construção de fórmulas e reações por blocos
-* 💡 Sistema de dicas graduais
+* 💡 Sistema de dicas
 * ❤️ Sistema de tentativas
 * ⭐ XP e progresso
 * 🏆 Conquistas
@@ -21,10 +21,10 @@ Tornar o aprendizado de Química mais visual e interativo, incentivando o aluno 
 
 ## 💻 Tecnologias
 
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-* **LocalStorage**
+* HTML5
+* CSS3
+* JavaScript
+* LocalStorage
 
 ## 📁 Estrutura
 
@@ -38,10 +38,11 @@ quimica-em-blocos/
 
 ## 🚀 Como executar
 
-Baixe o projeto e abra o arquivo `index.html` em um navegador.
+Baixe ou clone o projeto e abra o arquivo `index.html` em um navegador.
 
 Não é necessário instalar nenhuma dependência.
 
 ## 👨‍💻 Desenvolvedor
 
 Projeto desenvolvido para fins educacionais, unindo **Química, programação e aprendizagem interativa**.
+
